@@ -1,20 +1,31 @@
-* {
+/** {
     margin:0px;
     padding:0px;
+}*/
+
+
+.affix {
+    top: 0;
+    width: 100%;
 }
 
-header {
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+
+/*header {
     height:360px;
-    /*z-index:10;*/;
     background-color: orange;
 }
+
 .header-banner{
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     height: auto;
-    /*background-color: white*/
+    background-color: white
 }
 
 
@@ -90,4 +101,4 @@ body {
 .affix {
     top: 0;
     width: 100%;
-}
+} */
